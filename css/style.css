@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500;600;700&display=swap');
+
+/* Start Global Rules */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: 'Poppins', "Tajawal";
+    font-weight: 200;
+background-color: aqua;
+  }
+   
+    .container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* Small */
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  /* Medium */
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  /* Large */
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+  /* End Global Rules */
+  .main-bg{
+    background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  .avatar{
+    border-radius: 15px;
+    max-width: 60%; 
+    margin: auto;
+    object-fit: contain;
+    height: auto;
+margin: 15px auto;
+aspect-ratio: auto 240 / 240;;
+position: relative;
+    top: -120px;
+    background-color: wheat;
+  }
+  a{
+    text-decoration: none;
+    color: #777;
+  }
+  .sidebar-icons a{
+    text-decoration: none;
+    color: blue;
+    background-color: #eee;
+    margin-right: 3px;
+    padding:5px 8px;
+    border-radius: 10px;
+  }
+
+h2 hr{
+  width: 35%;
+  margin-left: 10px;
+  color: #610e0e;
+}
+@media (min-width: 992px){
+.sidebar {
+    position: sticky;
+}
+
+}
